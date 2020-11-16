@@ -1,0 +1,12 @@
+ports:
+  - host: 0.0.0.0
+    port: 8000
+    alertMsg: 1主机不通，请注意
+  - host: 0.0.0.0
+    port: 8081
+    alertMsg: 2主机不通，请注意
+telegram:
+  token: "**"
+  chatId: "-388307811"
+interval: 10
+sendInterval: 1800
