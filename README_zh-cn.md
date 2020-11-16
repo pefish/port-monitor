@@ -18,6 +18,12 @@ go get github.com/pefish/port-monitor/cmd/port-monitor
 go run ./cmd/port-monitor --config=/path/to/config
 ```
 
+或者
+
+```shell script
+GO_CONFIG=/path/to/config go run ./cmd/port-monitor
+```
+
 ## 文档
 
 [doc](https://godoc.org/github.com/pefish/XXX)
